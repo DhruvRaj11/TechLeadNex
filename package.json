@@ -1,5 +1,6 @@
 {
   "name": "nexacore-frontend",
+  "homepage": "https://DhruvRaj11.github.io/TechLeadNex/",
   "version": "2.0.0",
   "description": "NexaCore Digital Agency — Gen-Z React Frontend with MVM Architecture",
   "type": "module",
@@ -7,28 +8,31 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .js,.jsx"
+    "lint": "eslint src --ext .js,.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "framer-motion": "^11.0.0",
-    "zustand": "^4.5.0",
     "@emailjs/browser": "^4.3.0",
+    "axios": "^1.6.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
     "react-hot-toast": "^2.4.1",
     "react-intersection-observer": "^9.7.0",
+    "react-router-dom": "^6.22.0",
     "react-type-animation": "^3.2.0",
-    "react-countup": "^6.5.0",
-    "react-helmet-async": "^2.0.4",
-    "axios": "^1.6.0",
-    "clsx": "^2.1.0"
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.1.0",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.0",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.1.0"
   }
 }
