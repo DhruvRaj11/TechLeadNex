@@ -1,6 +1,5 @@
 {
   "name": "nexacore-frontend",
-  "homepage": "https://DhruvRaj11.github.io/TechLeadNex/",
   "version": "2.0.0",
   "description": "NexaCore Digital Agency — Gen-Z React Frontend with MVM Architecture",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src --ext .js,.jsx",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint src --ext .js,.jsx"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.0",
